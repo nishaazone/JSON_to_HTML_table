@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reads the XML data using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+	<!--JavaScript-->
+	<script>
+		function loadXMLinHTMLform() {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+
+				// Request finished and response
+				// is ready and Status is "OK"
+				if (this.readyState == 4 && this.status == 200) {
+					wardDetails(this);
+				}
+			};
+
+			// ward.xml is the external xml file
+			xmlhttp.open("GET", "ward.xml", true);
+			xmlhttp.send();
+		}
+
+		function wardDetails(xml) {
+			var i,j,k;
+			var xmlDoc = xml.responseXML;
+			var table =
+				`<tr><th rowspan="2">Name</th>
+					<th rowspan="2">PinCode</th>
+					<th rowspan="2">Region</th>
+					<th rowspan="2">Zone-Officer</th>
+					<th rowspan="2">Phone</th>
+					<th rowspan="2">Assistant-Supritendent</th>
+                    <th rowspan="2">Corporator</th>
+					<th rowspan="2">Male</th>
+					<th rowspan="2">Female</th>
+					<th rowspan="2">SubWards</th>
+                    <th colspan="2">Dept. of Education</th>
+					<th colspan="2">Dept. of Electricity</th>		
+					<th rowspan="2">WardList</th>			
+				</tr>
+				
+				<tr><th>Officer-1</th>
+					<th>Officer-2</th>
+					<th>Officer-1</th>
+					<th>Officer-2</th></tr>`;
+
+			var x = xmlDoc.getElementsByTagName("zone");
+			var y = xmlDoc.getElementsByTagName("Department-of-Education");
+            var z = xmlDoc.getElementsByTagName("Department-of-Electricity");
+
+			// Start to fetch the data by using TagName
+			for (i = 0; i < x.length; i++) {
+				table += "<tr><td>" +
+					x[i].getElementsByTagName("Name")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Pincode")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Region")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Zone-Officer")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Phone")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Assistant-Supritendent")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Corporator")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Male")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("Female")[0]
+					.childNodes[0].nodeValue + "</td><td>" +
+					x[i].getElementsByTagName("SubWards")[0]
+					.childNodes[0].nodeValue + "</td>";
+
+					for(j=i; j<y.length; j=x.length)
+					{
+					table += "<td>" +
+					y[j].getElementsByTagName("ofc1")[0] 
+					.childNodes[0].nodeValue + "</td><td>" +
+					y[j].getElementsByTagName("ofc2")[0]
+					.childNodes[0].nodeValue + "</td>" ; 
+
+					   for(k=j; k<z.length; k=y.length)
+					   {
+						table += "<td>" +
+						z[k].getElementsByTagName("ofc3")[0]
+						.childNodes[0].nodeValue + "</td><td>" +
+						z[k].getElementsByTagName("ofc4")[0]
+						.childNodes[0].nodeValue + "</td>";
+					   }
+						
+				}	
+				table += "<td>" +
+					  x[i].getElementsByTagName("subward")[0].childNodes[0].nodeValue + ","
+					+ x[i].getElementsByTagName("subward")[1].childNodes[0].nodeValue + "," 
+					+ x[i].getElementsByTagName("subward")[2].childNodes[0].nodeValue + "," 
+					+ x[i].getElementsByTagName("subward")[3].childNodes[0].nodeValue + "," 
+					+ x[i].getElementsByTagName("subward")[4].childNodes[0].nodeValue + "," 
+					+ x[i].getElementsByTagName("subward")[5].childNodes[0].nodeValue + ","
+					+ x[i].getElementsByTagName("subward")[6].childNodes[0].nodeValue + 
+				"</td></tr>";		
+				
+			}
+			// Print the xml data in table form
+			document.getElementById("id").innerHTML = table;
+		}
+                
+        function loadXMLDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML =
+            this.responseText;
+            }
+        };
+         xhttp.open("GET", "ward.xml", true);
+         xhttp.send();
+        }
+
+        function loadJsonDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("jason").innerHTML =
+            this.responseText;
+            }
+        };
+         xhttp.open("GET", "ward.json", true);
+         xhttp.send();
+        }
+	</script>
+</head>
+
+<body>
+	<center>
+		<button type="button" class="button"
+			    onclick="loadXMLinHTMLform()">
+			    XML in HTML Table
+		</button>
+        <button type="button" class="button"
+		     	onclick="loadJsonDoc()">
+			    JSON
+		</button>
+        <button type="button" class="button"
+                onclick="loadXMLDoc()">
+                XML
+        </button>
+        <p id="demo"></p><br>             
+        <table id="id"></table><br>
+        <p id="jason"></p><br> 
+	</center>	
+</body>
+</html>

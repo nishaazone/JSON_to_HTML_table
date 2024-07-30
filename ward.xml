@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corporation>
+ <zone number="1">
+   <Name>Satranjipura</Name>
+   <Pincode>440023</Pincode>
+   <Region>Vidharba</Region>
+   <Zone-Officer>Meghna Dixit
+     <Phone>9835726548</Phone>
+   </Zone-Officer>
+   <Assistant-Supritendent>Rahul Rastogi</Assistant-Supritendent>
+      <Department-of-Education>
+        <ofc1>Rajan Shrivastav</ofc1>
+        <ofc2>Nikhil Sharma</ofc2>
+      </Department-of-Education>
+      <Department-of-Electricity>
+        <ofc3>Mohan Bhargav</ofc3>
+        <ofc4>Keshav Mehra</ofc4>
+      </Department-of-Electricity>
+    <Corporator>Zeeshan Khan</Corporator>
+    <SubWards>3
+      <subward>Gorewada</subward>
+      <subward>Manewada</subward>
+      <subward>Mankapur</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+    </SubWards>
+    <Population total="25,000">
+      <Male>11,500</Male>
+      <Female>13,500</Female>
+    </Population>
+ </zone>
+
+
+
+ <zone number="2">
+   <Name>Dharampeth</Name>
+   <Pincode>440020</Pincode>
+   <Region>Vidharba</Region>
+   <Zone-Officer>Kritika Sharma
+    <Phone>9835726548</Phone>
+   </Zone-Officer>
+   <Assistant-Supritendent>Rishabh Sharma</Assistant-Supritendent>
+     <Department-of-Education>
+        <ofc1>Ritika Gupta</ofc1>
+        <ofc2>Payal Mehrotra</ofc2>
+      </Department-of-Education>
+      <Department-of-Electricity>
+        <ofc3>Priya Mehra</ofc3>
+        <ofc4>Keshav Mishra</ofc4>
+      </Department-of-Electricity>
+    <Corporator>Varun Khanna</Corporator>
+    <SubWards>4
+      <subward>Hazari Pahad</subward>
+      <subward>Raipur</subward>
+      <subward>Mahal</subward>
+      <subward>Manish Nagar</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+    </SubWards>
+    <Population total="30,000">
+      <Male>14,000</Male>
+      <Female>16,000</Female>
+    </Population>
+ </zone>
+
+
+
+ <zone number="3">
+   <Name>Katol</Name>
+   <Pincode>440016</Pincode>
+   <Region>Vidharba</Region>
+   <Zone-Officer>Vicky Dubey
+    <Phone>9835726548</Phone>
+   </Zone-Officer>
+   <Assistant-Supritendent>Ishan Bhosale</Assistant-Supritendent>
+      <Department-of-Education>
+        <ofc1>Shantanu Maheshwari</ofc1>
+        <ofc2>Reyansh Sharma</ofc2>
+      </Department-of-Education>
+      <Department-of-Electricity>
+        <ofc3>Bharat Deokar</ofc3>
+        <ofc4>Akrati Jain </ofc4>
+      </Department-of-Electricity>
+    <Corporator>Rehan Khan</Corporator>
+    <SubWards>6
+      <subward>Gokulpeth</subward>
+      <subward>Jaripatka</subward>
+      <subward>Gittikhadan</subward>
+      <subward>Jyoti Nagar</subward>
+      <subward>Govindpura</subward>
+      <subward>Sagar Chawk</subward>
+      <subward>-</subward>
+    </SubWards>
+    <Population total="22,000">
+      <Male>11,500</Male>
+      <Female>10,500</Female>
+    </Population>
+ </zone>
+
+
+ <zone number="4">
+   <Name>Sakkardara</Name>
+   <Pincode>440004</Pincode>
+   <Region>Vidharba</Region>
+   <Zone-Officer>Nilesh Chauhan
+    <Phone>9835726548</Phone>
+   </Zone-Officer>
+   <Assistant-Supritendent>Mohan Viswakarma</Assistant-Supritendent>
+      <Department-of-Education>
+        <ofc1>Mohit Malik</ofc1>
+        <ofc2>Karan Modi</ofc2>
+      </Department-of-Education>
+      <Department-of-Electricity>
+        <ofc3>Sana Khan</ofc3>
+        <ofc4>Nikita Bhondekar</ofc4>
+      </Department-of-Electricity>
+    <Corporator>Aakansha Pandey</Corporator>
+    <SubWards>3
+      <subward>Kadbi Chawk</subward>
+      <subward>Kamal Chawk</subward>
+      <subward>Mominpura</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+      <subward>-</subward>
+    </SubWards>
+    <Population total="24,000">
+      <Male>13,502</Male>
+      <Female>10,498</Female>
+    </Population>
+ </zone>
+
+
+ <zone number="5">
+   <Name>Laxmi Nagar</Name>
+   <Pincode>440009</Pincode>
+   <Region>Vidharba</Region>
+   <Zone-Officer>Roshan Vihan
+    <Phone>9835726548</Phone>
+   </Zone-Officer>
+   <Assistant-Supritendent>Samrat Yadav</Assistant-Supritendent>
+     <Department-of-Education>
+        <ofc1>Rachel Green</ofc1>
+        <ofc2>Arshi Anjum</ofc2>
+      </Department-of-Education>
+      <Department-of-Electricity>
+        <ofc3>Bharat Deokar</ofc3>
+        <ofc4>Sameer Mendhe </ofc4>
+      </Department-of-Electricity>
+    <Corporator>Riya Gupta</Corporator>
+    <SubWards>7
+      <subward>Seminary Hills</subward>
+      <subward>Sitabuldi</subward>
+      <subward>Maharajbagh</subward>
+      <subward>Jyoti Nagar</subward>
+      <subward>Zero Mile</subward>
+      <subward>IT Park</subward>
+      <subward>Ambazari Road</subward>
+    </SubWards>
+    <Population total="40,500">
+      <Male>19,000</Male>
+      <Female>21,500</Female>
+    </Population>
+ </zone>
+</corporation>

@@ -1,0 +1,168 @@
+{
+  "corporation": {
+    "zone": [
+      {
+        "Name": "Satranjipura",
+        "Pincode": 440023,
+        "Region": "Vidharba",
+        "Zone-Officer": {
+          "#text": "Meghna Dixit",
+          "Phone": 9835726548
+        },
+        "Assistant-Supritendent": "Rahul Rastogi",
+        "Department-of-Education": {
+          "ofc1": "Rajan Shrivastav",
+          "ofc2": "Nikhil Sharma"
+        },
+        "Department-of-Electricity": {
+          "ofc3": "Mohan Bhargav",
+          "ofc4": "Keshav Mehra"
+        },
+        "Corporator": "Zeeshan Khan",
+        "SubWards": {
+          "#text": "3",
+          "subward": [
+            "Gorewada",
+            "Manewada",
+            "Mankapur"
+          ]
+        },
+        "Population": {
+          "Male": "11,500",
+          "Female": "13,500"
+        }
+      },
+      {
+        "Name": "Dharampeth",
+        "Pincode": 440020,
+        "Region": "Vidharba",
+        "Zone-Officer": {
+          "#text": "Kritika Sharma",
+          "Phone": 9835726548
+        },
+        "Assistant-Supritendent": "Rishabh Sharma",
+        "Department-of-Education": {
+          "ofc1": "Ritika Gupta",
+          "ofc2": "Payal Mehrotra"
+        },
+        "Department-of-Electricity": {
+          "ofc3": "Priya Mehra",
+          "ofc4": "Keshav Mishra"
+        },
+        "Corporator": "Varun Khanna",
+        "SubWards": {
+          "#text": "4",
+          "subward": [
+            "Hazari Pahad",
+            "Raipur",
+            "Mahal",
+            "Manish Nagar"
+          ]
+        },
+        "Population": {
+          "Male": "14,000",
+          "Female": "16,000"
+        }
+      },
+      {
+        "Name": "Katol",
+        "Pincode": 440016,
+        "Region": "Vidharba",
+        "Zone-Officer": {
+          "#text": "Vicky Dubey",
+          "Phone": 9835726548
+        },
+        "Assistant-Supritendent": "Ishan Bhosale",
+        "Department-of-Education": {
+          "ofc1": "Shantanu Maheshwari",
+          "ofc2": "Reyansh Sharma"
+        },
+        "Department-of-Electricity": {
+          "ofc3": "Bharat Deokar",
+          "ofc4": "Akrati Jain"
+        },
+        "Corporator": "Rehan Khan",
+        "SubWards": {
+          "#text": "6",
+          "subward": [
+            "Gokulpeth",
+            "Jaripatka",
+            "Gittikhadan",
+            "Jyoti Nagar",
+            "Govindpura",
+            "Sagar Chawk"
+          ]
+        },
+        "Population": {
+          "Male": "11,500",
+          "Female": "10,500"
+        }
+      },
+      {
+        "Name": "Sakkardara",
+        "Pincode": 440004,
+        "Region": "Vidharba",
+        "Zone-Officer": {
+          "#text": "Nilesh Chauhan",
+          "Phone": 9835726548
+        },
+        "Assistant-Supritendent": "Mohan Viswakarma",
+        "Department-of-Education": {
+          "ofc1": "Mohit Malik",
+          "ofc2": "Karan Modi"
+        },
+        "Department-of-Electricity": {
+          "ofc3": "Sana Khan",
+          "ofc4": "Nikita Bhondekar"
+        },
+        "Corporator": "Aakansha Pandey",
+        "SubWards": {
+          "#text": "2",
+          "subward": [
+            "Kadbi Chawk",
+            "Kamal Chawk"
+          ]
+        },
+        "Population": {
+          "Male": "13,502",
+          "Female": "10,498"
+        }
+      },
+      {
+        "Name": "Laxmi Nagar",
+        "Pincode": 440009,
+        "Region": "Vidharba",
+        "Zone-Officer": {
+          "#text": "Roshan Vihan",
+          "Phone": 9835726548
+        },
+        "Assistant-Supritendent": "Samrat Yadav",
+        "Department-of-Education": {
+          "ofc1": "Rachel Green",
+          "ofc2": "Arshi Anjum"
+        },
+        "Department-of-Electricity": {
+          "ofc3": "Bharat Deokar",
+          "ofc4": "Sameer Mendhe"
+        },
+        "Corporator": "Riya Gupta",
+        "SubWards": {
+          "#text": "7",
+          "subward": [
+            "Seminary Hills",
+            "Sitabuldi",
+            "Maharajbagh",
+            "Jyoti Nagar",
+            "Zero Mile",
+            "IT Park",
+            "Ambazari Road"
+          ]
+        },
+        "Population": {
+          "Male": "19,000",
+          "Female": "21,500"
+        }
+      }
+    ]
+  }
+}
